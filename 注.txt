@@ -1,0 +1,10 @@
+res = [[3,2,7],[1,6,7],[3,15,7],[1,137,7],[3,2000,7],[3,4,7]]
+res_labels = [['browser'],['chat'],['mail'],['other'],['other'],['browser']]
+
+网页+UDP+邮件+other
+
+对应字典:'6':3, '17':1,'443':4,'80':2,'6000':6,'587':15,'192.168.64.128':7
+
+udp聊天时，本机作为客户端
+
+流程:（create_dic.py-> samtran.py)->extra.py->gentran.py->predic.py
